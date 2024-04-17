@@ -8,4 +8,4 @@ This repo contains the code used for my machine learning class CAAM 37710 at UCh
 
 ### HW2: Perceptron Algorithm
 - Implementation of perceptron algorithm based on 2,000 training images categorized as either 3 or 5 from the MNIST data set
-- Makes predictions about 200 test images found in `hw2/data/test35.predictions`
+- Makes predictions about 200 test images with labels found in `hw2/data/test35.predictions`
