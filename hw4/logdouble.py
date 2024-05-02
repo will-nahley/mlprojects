@@ -18,6 +18,10 @@ class logdouble:
         prod = logdouble(self.log_val + other.log_val, 1)
         return prod
     
+    def __truediv__(self, other):
+        div = logdouble(self.log_val - other.log_val, 1)
+        return div
+    
     def __add__(self, other):
         sum = 0.0
         if other.log_val <= self.log_val:
@@ -27,4 +31,12 @@ class logdouble:
         
         sum = logdouble(sum, True)
         return sum
+    
+    def __str__(self):
+        return str(self.log_val)
+    
+    def o(self):
+        return self.original_val
+    def e(self):
+        return self.log_val
     
