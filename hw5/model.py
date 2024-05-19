@@ -12,7 +12,8 @@ class Custom_LSTM(nn.Module):
         self.input_size = input_size
         self.hidden_size = hidden_size
         
-        #initialize parameters
+        #initialize parameters to match the dimensions in Chris Olah's blog
+        # nn.Linear performs xA^T + b(0), which explains the shape used
         self.W_f = nn.Linear(input_size + hidden_size, input_size, bias=False)
         self.b_f = nn.Parameter(torch.Tensor(hidden_size))
 
@@ -71,6 +72,10 @@ class Custom_LSTM(nn.Module):
 
 class Encoder(nn.Module):
     def __init__(self, input_size, hidden_size):
+        """
+        Encoder Module: only take in the input_size and hidden_size. the last encoder cell
+        passes final ht and ct to the Decoder module
+        """
         super().__init__()
         self.input_size = input_size
         self.hidden_size = hidden_size
@@ -123,8 +128,15 @@ class Decoder(nn.Module):
         predictions = []
         for i, emb_word in enumerate(target_seq):
             ht, ct = self.cust_lstm.output(ht, ct, emb_word)
+            #for some reason, the round to word function would not work, as it would
+            #just ouput the same vector every time for some reason leading to no change
+            #in train/validation loss epoch over epoch, so i took it out
             #ht = self.round_to_word(ht)
             rng = np.random.rand()
+
+            #I also had weird training behavior with the teacher-forcing ratio, so I just set
+            #it to zero so that we only feed predictions from the last cell into input of next cell
+            #rather than occasionally correct the model
             tf_ratio = 0.0
             if tf and rng < tf_ratio:
                     ht = emb_word
@@ -137,6 +149,10 @@ class Decoder(nn.Module):
 
 class S2S(nn.Module):
     def __init__(self, encoder, decoder):
+        """
+        Passes the encoder object to decoder. Links the two through the last hidden
+        state of the Encoder as input to the Decoder
+        """
         super().__init__()
         self.encoder = encoder
         self.decoder = decoder
