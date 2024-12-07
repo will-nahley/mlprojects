@@ -1,0 +1,496 @@
+Test line: 3
+Correct output: <s> Tina saw Sue , and invited her to sit at her table . </s> 
+Predicted output: <s> Tina saw suggested , and invited her to sit at her table . </s> 
+
+Test line: 4
+Correct output: <s> She realized they didn 't have her size so she left with no sweater . </s> 
+Predicted output: <s> She realized they didn chose have her size so she left with no sweater . </s> 
+
+Test line: 5
+Correct output: <s> He noticed there wasn 't much . </s> 
+Predicted output: <s> He noticed there wasn chose much . </s> 
+
+Test line: 45
+Correct output: <s> Bob answered the phone in the library . </s> 
+Predicted output: <s> Bob answered the phone in the addition . </s> 
+
+Test line: 48
+Correct output: <s> As the light turned green , he didn 't move it . </s> 
+Predicted output: <s> As the light turned green , he didn chose move it . </s> 
+
+Test line: 52
+Correct output: <s> Bob 's wife , Sue , wanted to bake him a cake . </s> 
+Predicted output: <s> Bob 's wife , Sue , wanted to turn him a cake . </s> 
+
+Test line: 54
+Correct output: <s> Bob kept cheating on Sue . </s> 
+Predicted output: <s> Bob kept cheating on suggested . </s> 
+
+Test line: 57
+Correct output: <s> He got a ball of snow and ran up to Sue . </s> 
+Predicted output: <s> He got a ball of snow and ran up to instead . </s> 
+
+Test line: 61
+Correct output: <s> They were only 4 and 5 . </s> 
+Predicted output: <s> They were only 5 and 5 . </s> 
+
+Test line: 70
+Correct output: <s> During lunch , Sue couldn 't find a place to sit . </s> 
+Predicted output: <s> During lunch , suggested couldn chose find a place to sit . </s> 
+
+Test line: 89
+Correct output: <s> He decided on Friday night he would work from home . </s> 
+Predicted output: <s> He decided on saw night he would work from home . </s> 
+
+Test line: 92
+Correct output: <s> Bob still did not get good grades and was frustrated . </s> 
+Predicted output: <s> Bob still did not get good . and was frustrated . </s> 
+
+Test line: 98
+Correct output: <s> Sue didn 't want to give the dog any candy . </s> 
+Predicted output: <s> Sue didn chose want to give the dog any candy . </s> 
+
+Test line: 103
+Correct output: <s> He proposed to Sue . </s> 
+Predicted output: <s> He proposed to suggested . </s> 
+
+Test line: 107
+Correct output: <s> There were still miles of kids in front of him to meet Santa . </s> 
+Predicted output: <s> There were still miles of kids in front of him to meet convinced . </s> 
+
+Test line: 108
+Correct output: <s> She wanted to call her friend Sue on the phone . </s> 
+Predicted output: <s> She wanted to call her friend suggested on the phone . </s> 
+
+Test line: 119
+Correct output: <s> This time when her sister told the story , Sue became very scared . </s> 
+Predicted output: <s> This time when her sister told the story , suggested became very scared . </s> 
+
+Test line: 126
+Correct output: <s> He couldn 't choose . </s> 
+Predicted output: <s> He couldn chose chose . </s> 
+
+Test line: 141
+Correct output: <s> Sue was forced to park across the street . </s> 
+Predicted output: <s> Sue was forced to park along the street . </s> 
+
+Test line: 147
+Correct output: <s> Unfortunately they didn 't have enough money . </s> 
+Predicted output: <s> Unfortunately they didn chose have enough money . </s> 
+
+Test line: 148
+Correct output: <s> At the end of the dinner Sue found a surprise in her cake . </s> 
+Predicted output: <s> At the end of the dinner instead found a surprise in her cake . </s> 
+
+Test line: 149
+Correct output: <s> They had a great time and missed Sue when she left . </s> 
+Predicted output: <s> They had a great time and missed instead when she left . </s> 
+
+Test line: 150
+Correct output: <s> Sue ended up staying up 2 days straight to finish on time . </s> 
+Predicted output: <s> Sue ended up staying up 3 days straight to finish on time . </s> 
+
+Test line: 151
+Correct output: <s> Bob wouldn 't have to be out in the cold anymore . </s> 
+Predicted output: <s> Bob wouldn chose have to be out in the cold anymore . </s> 
+
+Test line: 159
+Correct output: <s> My friend Sue gave me a glass for my birthday . </s> 
+Predicted output: <s> My friend instead gave me a glass for my birthday . </s> 
+
+Test line: 164
+Correct output: <s> He was dead and wouldn 't ever use the bed again . </s> 
+Predicted output: <s> He was dead and wouldn chose ever use the bed again . </s> 
+
+Test line: 169
+Correct output: <s> He realizes he can 't move . </s> 
+Predicted output: <s> He realizes he can chose move . </s> 
+
+Test line: 177
+Correct output: <s> She hated walking 20 minutes to get to her classes . </s> 
+Predicted output: <s> She hated walking 30 minutes to get to her instead . </s> 
+
+Test line: 183
+Correct output: <s> His family didn 't have much money . </s> 
+Predicted output: <s> His family didn chose have much money . </s> 
+
+Test line: 188
+Correct output: <s> After that Jay was able to call home when he wanted . </s> 
+Predicted output: <s> After that instead was able to call home when he wanted . </s> 
+
+Test line: 189
+Correct output: <s> But then he realized he had no bread . </s> 
+Predicted output: <s> But then he realized he had no instead . </s> 
+
+Test line: 192
+Correct output: <s> One morning she got there and Sue was nowhere to be found . </s> 
+Predicted output: <s> One morning she got there and instead was nowhere to be found . </s> 
+
+Test line: 194
+Correct output: <s> She was on the street instead of on the highway because of the traffic </s> 
+Predicted output: <s> She was on the street instead of on the along because of the traffic </s> 
+
+Test line: 197
+Correct output: <s> She hadn 't been in a long time and was excited to see everyone . </s> 
+Predicted output: <s> She hadn chose been in a long time and was excited to see everyone . </s> 
+
+Test line: 198
+Correct output: <s> His sister was 20 minutes late coming to the movies . </s> 
+Predicted output: <s> His sister was 30 minutes late coming to the movies . </s> 
+
+Test line: 203
+Correct output: <s> Bob was happy his mom wouldn 't know about the mess . </s> 
+Predicted output: <s> Bob was happy his mom wouldn chose know about the mess . </s> 
+
+Test line: 208
+Correct output: <s> He took lessons from a dance school for weeks . </s> 
+Predicted output: <s> He took learned from a dance school for weeks . </s> 
+
+Test line: 209
+Correct output: <s> He didn 't have enough money to go . </s> 
+Predicted output: <s> He didn chose have enough money to go . </s> 
+
+Test line: 210
+Correct output: <s> When Sue arrived , Bob was nearly done cooking the meal . </s> 
+Predicted output: <s> When Sue arrived , Bob was almost done cooking the meal . </s> 
+
+Test line: 217
+Correct output: <s> Sue had three very tall children as well . </s> 
+Predicted output: <s> Sue had three very actually others as well . </s> 
+
+Test line: 228
+Correct output: <s> Sue was too sad to take any other classes as well . </s> 
+Predicted output: <s> Sue was too sad to take any other instead as well . </s> 
+
+Test line: 236
+Correct output: <s> So he decided to call his friend Sue . </s> 
+Predicted output: <s> So he decided to call his friend suggested . </s> 
+
+Test line: 241
+Correct output: <s> One day , the man 's dog broke loose and ran straight for Sue . </s> 
+Predicted output: <s> One day , the man 's dog broke loose and ran straight for suggested . </s> 
+
+Test line: 246
+Correct output: <s> However , he doesn 't have plans for baseball afterwards . </s> 
+Predicted output: <s> However , he doesn chose have plans for baseball afterwards . </s> 
+
+Test line: 253
+Correct output: <s> He offered her a glass of wine , and Sue accepted . </s> 
+Predicted output: <s> He offered her a glass of wine , and suggested accepted . </s> 
+
+Test line: 256
+Correct output: <s> She never talked in class . </s> 
+Predicted output: <s> She never talked in . . </s> 
+
+Test line: 257
+Correct output: <s> He went to guitar center . </s> 
+Predicted output: <s> He went to guitar , . </s> 
+
+Test line: 258
+Correct output: <s> He couldn 't find anything , so he decided to order a pizza . </s> 
+Predicted output: <s> He couldn chose find anything , so he decided to order a pizza . </s> 
+
+Test line: 260
+Correct output: <s> He saw a pretty girl on the way to class . </s> 
+Predicted output: <s> He saw a pretty girl on the way to . . </s> 
+
+Test line: 264
+Correct output: <s> It turns out Sue forgot to water it . </s> 
+Predicted output: <s> It turns out instead forgot to water it . </s> 
+
+Test line: 278
+Correct output: <s> When Christmas came she decided to buy her friends gifts . </s> 
+Predicted output: <s> When again came she decided to buy her friends gifts . </s> 
+
+Test line: 288
+Correct output: <s> Sue didn 't have a lot of money . </s> 
+Predicted output: <s> Sue didn chose have a lot of money . </s> 
+
+Test line: 293
+Correct output: <s> Bob got out of his car , and saw that the deer had been killed . </s> 
+Predicted output: <s> Bob got out of his car , and saw that the deer had been dead . </s> 
+
+Test line: 301
+Correct output: <s> Before he left , he realized he didn 't have his phone . </s> 
+Predicted output: <s> Before he left , he realized he didn chose have his phone . </s> 
+
+Test line: 315
+Correct output: <s> One day , some girls came over while Sue 's cousin was visiting . </s> 
+Predicted output: <s> One day , some girls came over while suggested 's cousin was visiting . </s> 
+
+Test line: 341
+Correct output: <s> She loved having bake sales . </s> 
+Predicted output: <s> She loved having turn sales . </s> 
+
+Test line: 342
+Correct output: <s> As a result , Sue was grounded . </s> 
+Predicted output: <s> As a result , suggested was grounded . </s> 
+
+Test line: 348
+Correct output: <s> She took all but 4 of the cats away from Bob . </s> 
+Predicted output: <s> She took all but 5 of the cats away from Bob . </s> 
+
+Test line: 355
+Correct output: <s> Bob showed off and took out hundred dollar bills . </s> 
+Predicted output: <s> Bob showed off and took out hundred dollar instead . </s> 
+
+Test line: 356
+Correct output: <s> He had spent the past 3 months practicing . </s> 
+Predicted output: <s> He had spent the past 5 months practicing . </s> 
+
+Test line: 360
+Correct output: <s> Bob went to the living room to use the TV screen . </s> 
+Predicted output: <s> Bob went to the living room to use the instead screen . </s> 
+
+Test line: 365
+Correct output: <s> At the store when it was time to pay she only had $ 2 </s> 
+Predicted output: <s> At the store when it was time to pay she only had $ 3 </s> 
+
+Test line: 379
+Correct output: <s> But each one Sue saw was too expensive to buy ! </s> 
+Predicted output: <s> But each one suggested saw was too expensive to buy ! </s> 
+
+Test line: 383
+Correct output: <s> But he was the same rude person to Sue . </s> 
+Predicted output: <s> But he was the same rude person to instead . </s> 
+
+Test line: 391
+Correct output: <s> Bob was relieved that he wasn 't getting a ticket . </s> 
+Predicted output: <s> Bob was relieved that he wasn chose getting a ticket . </s> 
+
+Test line: 404
+Correct output: <s> One day a lady told Sue 's boss she was a great worker . </s> 
+Predicted output: <s> One day a lady told instead 's boss she was a great worker . </s> 
+
+Test line: 416
+Correct output: <s> One morning they almost left without Sue . </s> 
+Predicted output: <s> One morning they almost left without suggested . </s> 
+
+Test line: 429
+Correct output: <s> She sent him a note during English class . </s> 
+Predicted output: <s> She sent him a note during convinced class . </s> 
+
+Test line: 431
+Correct output: <s> Everyone in the class laughed at the funny joke . </s> 
+Predicted output: <s> Everyone in the . laughed at the funny joke . </s> 
+
+Test line: 439
+Correct output: <s> Today he didn 't listen and played with his basketball inside . </s> 
+Predicted output: <s> Today he didn chose listen and played with his basketball inside . </s> 
+
+Test line: 440
+Correct output: <s> He didn 't have money to get it fixed . </s> 
+Predicted output: <s> He didn chose have money to get it fixed . </s> 
+
+Test line: 448
+Correct output: <s> She hadn 't been back for a week . </s> 
+Predicted output: <s> She hadn chose been back for a week . </s> 
+
+Test line: 452
+Correct output: <s> He couldn 't decide what he wanted to eat . </s> 
+Predicted output: <s> He couldn chose decide what he wanted to eat . </s> 
+
+Test line: 461
+Correct output: <s> Bob and I are not friends anymore . </s> 
+Predicted output: <s> Bob and . well not friends anymore . </s> 
+
+Test line: 476
+Correct output: <s> Sue hadn 't realized she needed to change music she liked . </s> 
+Predicted output: <s> Sue hadn chose realized she needed to change music she liked . </s> 
+
+Test line: 486
+Correct output: <s> When he entered his room , he found his TV missing . </s> 
+Predicted output: <s> When he entered his room , he found his saw missing . </s> 
+
+Test line: 493
+Correct output: <s> He decided he wanted to go swimming but didn 't have a pool . </s> 
+Predicted output: <s> He decided he wanted to go swimming but didn chose have a pool . </s> 
+
+Test line: 508
+Correct output: <s> Sue gathered her things and left the library . </s> 
+Predicted output: <s> Sue gathered her things and left the addition . </s> 
+
+Test line: 521
+Correct output: <s> Bob spent all Sunday baking them . </s> 
+Predicted output: <s> Bob spent all supposed baking them . </s> 
+
+Test line: 535
+Correct output: <s> When she got home her mom was mad she didn 't get some for everyone . </s> 
+Predicted output: <s> When she got home her mom was mad she didn chose get some for everyone . </s> 
+
+Test line: 537
+Correct output: <s> But he realized he left it in his last class . </s> 
+Predicted output: <s> But he realized he left it in his last . . </s> 
+
+Test line: 554
+Correct output: <s> She left Sue on her couch . </s> 
+Predicted output: <s> She left suggested on her couch . </s> 
+
+Test line: 555
+Correct output: <s> When his sister finally came he couldn 't believe it ! </s> 
+Predicted output: <s> When his sister finally came he couldn chose believe it ! </s> 
+
+Test line: 559
+Correct output: <s> This company was full of people who fought with each other a lot . </s> 
+Predicted output: <s> This company was full of others who fought with each other a lot . </s> 
+
+Test line: 570
+Correct output: <s> He looked through the mall but couldn 't find anything . </s> 
+Predicted output: <s> He looked through the mall but couldn chose find anything . </s> 
+
+Test line: 573
+Correct output: <s> She had to put extra air in the tire 3 times in 1 month . </s> 
+Predicted output: <s> She had to put extra air in the tire 5 times in 1 month . </s> 
+
+Test line: 574
+Correct output: <s> It was Christmas and she had no idea what to get the boss . </s> 
+Predicted output: <s> It was . and she had no idea what to get the boss . </s> 
+
+Test line: 578
+Correct output: <s> After a few minutes , Sue was the only one talking . </s> 
+Predicted output: <s> After a few minutes , suggested was the only one talking . </s> 
+
+Test line: 583
+Correct output: <s> Bob decided to join a club to meet people . </s> 
+Predicted output: <s> Bob decided to join a club to meet others . </s> 
+
+Test line: 585
+Correct output: <s> He didn 't have time to shower or eat because he just rushed out ! </s> 
+Predicted output: <s> He didn chose have time to shower or eat because he just rushed out ! </s> 
+
+Test line: 595
+Correct output: <s> And he 's used the same one for 20 Years . </s> 
+Predicted output: <s> And he 's used the same one for 30 approached . </s> 
+
+Test line: 602
+Correct output: <s> She named her Sue . </s> 
+Predicted output: <s> She named her suggested . </s> 
+
+Test line: 604
+Correct output: <s> She hoped her students would like her ! </s> 
+Predicted output: <s> She hoped her while would like her ! </s> 
+
+Test line: 607
+Correct output: <s> Bob learned a couple lessons that day . </s> 
+Predicted output: <s> Bob learned a couple learned that day . </s> 
+
+Test line: 616
+Correct output: <s> But she wasn 't ready to go to bed . </s> 
+Predicted output: <s> But she wasn chose ready to go to bed . </s> 
+
+Test line: 621
+Correct output: <s> They decided to meet for Christmas . </s> 
+Predicted output: <s> They decided to meet for . . </s> 
+
+Test line: 622
+Correct output: <s> He said there wasn 't a problem . </s> 
+Predicted output: <s> He said there wasn chose a problem . </s> 
+
+Test line: 624
+Correct output: <s> He has played for 4 years . </s> 
+Predicted output: <s> He has played for 5 years . </s> 
+
+Test line: 630
+Correct output: <s> When the pizza came , Sue noticed a dead fly on Bob 's piece . </s> 
+Predicted output: <s> When the pizza came , suggested noticed a dead fly on Bob 's piece . </s> 
+
+Test line: 633
+Correct output: <s> Sue studied in the library for hours . </s> 
+Predicted output: <s> Sue studied in the addition for hours . </s> 
+
+Test line: 639
+Correct output: <s> Since it well on the side with the cheese , it was no longer good . </s> 
+Predicted output: <s> Since it well on the side with the instead , it was no longer good . </s> 
+
+Test line: 645
+Correct output: <s> Bob never talked during class again . </s> 
+Predicted output: <s> Bob never talked during . again . </s> 
+
+Test line: 646
+Correct output: <s> Bob took Sue home after dinner . </s> 
+Predicted output: <s> Bob took suggested home after dinner . </s> 
+
+Test line: 649
+Correct output: <s> His son was having trouble with an English assignment . </s> 
+Predicted output: <s> His son was having trouble with an convinced assignment . </s> 
+
+Test line: 650
+Correct output: <s> He didn 't like that he had to go to the park to see the birds . </s> 
+Predicted output: <s> He didn chose like that he had to go to the park to see the . . </s> 
+
+Test line: 655
+Correct output: <s> His mother said he couldn 't go . </s> 
+Predicted output: <s> His mother said he couldn chose go . </s> 
+
+Test line: 657
+Correct output: <s> He asked his mom if Santa could bring him a cat for Christmas . </s> 
+Predicted output: <s> He asked his mom if convinced could bring him a cat for . . </s> 
+
+Test line: 665
+Correct output: <s> Just then she saw Sue walking up the block . </s> 
+Predicted output: <s> Just then she saw suggested walking up the block . </s> 
+
+Test line: 677
+Correct output: <s> We played on Facebook . </s> 
+Predicted output: <s> We played on convinced . </s> 
+
+Test line: 687
+Correct output: <s> Bob and I went to the pond . </s> 
+Predicted output: <s> Bob and . went to the pond . </s> 
+
+Test line: 694
+Correct output: <s> Bob did such a good job , he got an " A " on the project ! </s> 
+Predicted output: <s> Bob did such a good job , he got an " convinced " on the project ! </s> 
+
+Test line: 697
+Correct output: <s> His mother cooked a turkey and several side dishes . </s> 
+Predicted output: <s> His mother cooked a again and several side dishes . </s> 
+
+Test line: 698
+Correct output: <s> When , Bob 's diet didn 't work , he began to exercise . </s> 
+Predicted output: <s> When , Bob 's diet didn chose work , he began to exercise . </s> 
+
+Test line: 706
+Correct output: <s> He went and bought the tickets for her Christmas gift . </s> 
+Predicted output: <s> He went and bought the tickets for her . gift . </s> 
+
+Test line: 718
+Correct output: <s> At the end of the trip , Sue was pregnant . </s> 
+Predicted output: <s> At the end of the trip , suggested was pregnant . </s> 
+
+Test line: 726
+Correct output: <s> Bob won 4 out of the 5 games ! </s> 
+Predicted output: <s> Bob won 5 out of the 5 games ! </s> 
+
+Test line: 729
+Correct output: <s> Bob wasn 't good at math so he was scared . </s> 
+Predicted output: <s> Bob wasn chose good at math so he was scared . </s> 
+
+Test line: 731
+Correct output: <s> She thought she wouldn 't do well . </s> 
+Predicted output: <s> She thought she wouldn chose do well . </s> 
+
+Test line: 732
+Correct output: <s> She decided she would only spend an hour with Sue . </s> 
+Predicted output: <s> She decided she would only spend an hour with suggested . </s> 
+
+Test line: 735
+Correct output: <s> But he didn 't know what to eat . </s> 
+Predicted output: <s> But he didn chose know what to eat . </s> 
+
+Test line: 742
+Correct output: <s> The picture didn 't look right . </s> 
+Predicted output: <s> The picture didn chose look right . </s> 
+
+Test line: 746
+Correct output: <s> His grades got better . </s> 
+Predicted output: <s> His . got better . </s> 
+
+Test line: 748
+Correct output: <s> She then asked if other people thought this , they said no . </s> 
+Predicted output: <s> She then asked if other others thought this , they said no . </s> 
+
+Test line: 749
+Correct output: <s> The same day his wife Sue bought a new chair for the living room . </s> 
+Predicted output: <s> The same day his wife instead bought a new chair for the living room . </s> 
+

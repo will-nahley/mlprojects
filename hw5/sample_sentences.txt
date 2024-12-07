@@ -1,0 +1,47 @@
+Correct Examples:
+----------------------
+These come from lstm_seq2seq.ipynb, so you can see how I generated these samples there.
+
+Example 1 (test sample 1):
+Input sentence: <s> Sue ended up being very good . </s> 
+Correct response: <s> Sue stuck with dance and loved it . </s> 
+Predicted response: <s> Sue stuck with dance and loved it . </s> 
+
+Example 2 (test sample 101):
+Input sentence: <s> The wind was getting very bad by Bob 's house . </s> 
+Correct response: <s> Bob went in to check the weather report . </s> 
+Predicted response: <s> Bob went in to check the weather report . </s> 
+
+Example 3 (test sample 201):
+Input sentence: <s> Sue was walking to the store . </s> 
+Correct response: <s> She noticed someone near her on the sidewalk . </s> 
+Predicted response: <s> She noticed someone near her on the sidewalk . </s> 
+
+Example 4 (test sample 301):
+Input sentence: <s> Bob got up in the morning , all ready for his first class . </s> 
+Correct response: <s> Before he left , he realized he didn 't have his phone . </s> 
+Predicted response: <s> Before he left , he realized he didn chose have his phone . </s> 
+
+Incorrect Examples:
+----------------------
+These come from incorrect_predictions_glove.txt, where you can see how I generated these.
+
+Test line: 3
+Correct output: <s> Tina saw Sue , and invited her to sit at her table . </s> 
+Predicted output: <s> Tina saw suggested , and invited her to sit at her table . </s> 
+
+Test line: 4
+Correct output: <s> She realized they didn 't have her size so she left with no sweater . </s> 
+Predicted output: <s> She realized they didn chose have her size so she left with no sweater . </s> 
+
+Test line: 5
+Correct output: <s> He noticed there wasn 't much . </s> 
+Predicted output: <s> He noticed there wasn chose much . </s> 
+
+Test line: 45
+Correct output: <s> Bob answered the phone in the library . </s> 
+Predicted output: <s> Bob answered the phone in the addition . </s> 
+
+Test line: 48
+Correct output: <s> As the light turned green , he didn 't move it . </s> 
+Predicted output: <s> As the light turned green , he didn chose move it . </s> 

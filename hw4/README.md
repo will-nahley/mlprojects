@@ -1,0 +1,2 @@
+# Homework 4 Details
+I've implemented Baum-Welch and Viterbi in `HMM.ipynb`. The output transition, emission, and initial probabilities are outputted to `TEI.txt`, and the predictions for the first 300 rolls are on `predictions.txt`
